@@ -27,4 +27,4 @@ def execute_commands(command) :
     print(output)
 
 get_passed_arguments()
-execute_commands('cd /usr/share/nginx/html/Software-Testing\ngit pull')
+execute_commands('cd /usr/share/nginx/html/Software-Testing\ngit pull\nsudo /usr/sbin/service nginx restart')
